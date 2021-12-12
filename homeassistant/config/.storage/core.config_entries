@@ -1,0 +1,68 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "8c7ce5066edf3abd376f9b03cb8b7fe1",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "f00c458e54a0fb7dc59d65d1ccd8522a",
+                "version": 1,
+                "domain": "mqtt",
+                "title": "configuration.yaml",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "c81ec95e0309f37a10f79784eea7bf1b",
+                "version": 1,
+                "domain": "tasmota",
+                "title": "Tasmota",
+                "data": {
+                    "discovery_prefix": "tasmota/discovery"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "mqtt",
+                "unique_id": "tasmota",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "9c2dd332efbc8a19b46a7577484306cf",
+                "version": 1,
+                "domain": "yandex_station",
+                "title": "iamryabinov",
+                "data": {
+                    "x_token": "AQAAAAAVNe-mAAAVszAHC3QSvkBBpMikZ80ocHk",
+                    "music_token": "AQAAAAAVNe-mAAG8XuWmjo5BUkJ1rYFcfXXNMvE",
+                    "cookie": "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"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "iamryabinov",
+                "disabled_by": null
+            }
+        ]
+    }
+}

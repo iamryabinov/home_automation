@@ -1,0 +1,24 @@
+2021-12-08 19:45:04 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration yandex_station which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2021-12-08 20:03:46 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [139796896133424] No text to speak
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 185, in handle_call_service
+    await hass.services.async_call(
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1495, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1530, in _execute_service
+    await handler.job.target(service_call)
+  File "/usr/src/homeassistant/homeassistant/components/tts/__init__.py", line 184, in async_say_handle
+    url = await tts.async_get_url_path(
+  File "/usr/src/homeassistant/homeassistant/components/tts/__init__.py", line 372, in async_get_url_path
+    filename = await self.async_get_tts_audio(
+  File "/usr/src/homeassistant/homeassistant/components/tts/__init__.py", line 384, in async_get_tts_audio
+    extension, data = await provider.async_get_tts_audio(message, language, options)
+  File "/usr/src/homeassistant/homeassistant/components/tts/__init__.py", line 553, in async_get_tts_audio
+    return await self.hass.async_add_executor_job(
+  File "/usr/local/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/src/homeassistant/homeassistant/components/google_translate/tts.py", line 129, in get_tts_audio
+    tts = gTTS(text=message, lang=language)
+  File "/usr/local/lib/python3.9/site-packages/gtts/tts.py", line 131, in __init__
+    assert text, 'No text to speak'
+AssertionError: No text to speak

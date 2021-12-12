@@ -1,0 +1,54 @@
+{
+    "version": 1,
+    "key": "lovelace.lovelace_monitoring",
+    "data": {
+        "config": {
+            "views": [
+                {
+                    "title": "Home",
+                    "icon": "mdi:air-conditioner",
+                    "type": "sidebar",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.yandex_station_14207901c4105c0c0650",
+                            "view_layout": {
+                                "position": "sidebar"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "dv",
+                    "path": "dv",
+                    "icon": "mdi:account-plus",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "switch.switch_3"
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "switch.switch_1"
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "switch.switch_2"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

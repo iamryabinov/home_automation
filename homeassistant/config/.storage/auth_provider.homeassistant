@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "key": "auth_provider.homeassistant",
+    "data": {
+        "users": [
+            {
+                "username": "netshutok",
+                "password": "JDJiJDEyJC5odlpRM1FaTFRGb2dQOTF1akNLbWV2blBwekxzUEpuM2svSnFNZjZ4SE5GTjZqTTU0OThp"
+            }
+        ]
+    }
+}

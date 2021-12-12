@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.netshutok_admin",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "netshutok_admin",
+                    "user_id": "cbf0204b62034ec28be5144f00a9b0a6",
+                    "friendly_name": "netshutok_admin"
+                },
+                "last_changed": "2021-12-12T19:06:37.832142+00:00",
+                "last_updated": "2021-12-12T19:06:41.368944+00:00",
+                "context": {
+                    "id": "f7a345478c04b0226b4c2969cfca43fa",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-12-12T19:21:41.371759+00:00"
+        }
+    ]
+}

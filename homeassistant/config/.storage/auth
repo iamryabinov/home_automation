@@ -1,0 +1,125 @@
+{
+    "version": 1,
+    "key": "auth",
+    "data": {
+        "users": [
+            {
+                "id": "cbf0204b62034ec28be5144f00a9b0a6",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": true,
+                "is_active": true,
+                "name": "netshutok_admin",
+                "system_generated": false
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "credentials": [
+            {
+                "id": "7f96fed386af472ba0fc3b957eae5617",
+                "user_id": "cbf0204b62034ec28be5144f00a9b0a6",
+                "auth_provider_type": "homeassistant",
+                "auth_provider_id": null,
+                "data": {
+                    "username": "netshutok"
+                }
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "id": "7f30529503e246baba86b84b903f3637",
+                "user_id": "cbf0204b62034ec28be5144f00a9b0a6",
+                "client_id": "http://localhost:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-12-08T13:00:28.050287+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "9179060fff83f80d537c8e0859d459cbff5239681dc0b1c406f47452da8a4e699737a67f36bb956fee004abcb2bda4c7df2ad86af90c51fd099750d09d385889",
+                "jwt_key": "466641e3dc156258285d4e4a3132c2a0c18b6758b590bf1fe048df0d3d473101084677339778c66269151bb2589b2172124d1e1379acce5c01eafbdf2d38d56a",
+                "last_used_at": "2021-12-08T13:00:28.050544+00:00",
+                "last_used_ip": "127.0.0.1",
+                "credential_id": "7f96fed386af472ba0fc3b957eae5617",
+                "version": "2021.11.5"
+            },
+            {
+                "id": "c7c4b6c9c1f94058b583e0a9d9ab0319",
+                "user_id": "cbf0204b62034ec28be5144f00a9b0a6",
+                "client_id": "http://localhost:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-12-08T13:00:54.670589+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "90941d8eb417364a5c1a6ea2eb976b4f45bb68b31a77cd00893c49af805108d70aa37a3e2e89e1e32d00deebc8f03d1d2923e2df127e1f6f43567e137d277c68",
+                "jwt_key": "8468f0fdbc2a7255e01251c9522211879de40ce8fa543684370bddcf8571cb8082a72e774a182a80cde9a617a7533e49d696d60f646ff0be51beeb2e574d3cc2",
+                "last_used_at": "2021-12-08T13:00:54.671189+00:00",
+                "last_used_ip": "127.0.0.1",
+                "credential_id": "7f96fed386af472ba0fc3b957eae5617",
+                "version": "2021.11.5"
+            },
+            {
+                "id": "7a370b9eff52450e8e9f99531d13e7d5",
+                "user_id": "cbf0204b62034ec28be5144f00a9b0a6",
+                "client_id": "http://192.168.3.12:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-12-08T15:36:11.800283+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "6ba783130dbc2bd53449fffa90bfd20bac600a621f899b3e204989de2d30944bc29b06a3eb12d2ab5b43b7cbea9360ce37fd73a6c4c46b14a9cf14611738a591",
+                "jwt_key": "37776601b1ea45906119473d7916698e061e98b7b896948aeecc8c669d673155d2f4e68754f49d7da8808ac3938a52f293aa627e5f7802fcd298effbc2313686",
+                "last_used_at": "2021-12-08T15:36:11.800895+00:00",
+                "last_used_ip": "192.168.3.2",
+                "credential_id": "7f96fed386af472ba0fc3b957eae5617",
+                "version": "2021.11.5"
+            },
+            {
+                "id": "36ac69080fcc489eaa50d74cbabe9c37",
+                "user_id": "cbf0204b62034ec28be5144f00a9b0a6",
+                "client_id": "http://192.168.3.12:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-12-08T16:19:29.817063+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "c903f45d98d46bb02390b5b4701a3e582b715dd63d9ba75272db2a59b8e82966295b1905be90d810b6521b3aa0cb581129cb16c5a4f9f44df2d25ab65d656b78",
+                "jwt_key": "d48ff01583713ef77f81abecec76713bd0aa6f98ddb892dc5e41bcc10058207a530cc73854fe1a602843385b19450be34f2780b7a130e5f7b0f3bb3fdfdd7af0",
+                "last_used_at": "2021-12-08T16:19:29.817674+00:00",
+                "last_used_ip": "192.168.3.2",
+                "credential_id": "7f96fed386af472ba0fc3b957eae5617",
+                "version": "2021.11.5"
+            },
+            {
+                "id": "99119cde11d44f02b90500f74662a3dd",
+                "user_id": "cbf0204b62034ec28be5144f00a9b0a6",
+                "client_id": "http://192.168.3.12:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-12-08T16:46:03.219317+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "11d8f225139f70ad71527cfdbfe12045fa6ee415d6aa943228e077eb90d9b820fea10318007adee76fee7529e57904e046d71dc456ac95e0d51c696684501e72",
+                "jwt_key": "7cb4a5a6a4d3c5269031146507caa2d2e002ebe2402fbf2441dcd2cc8b0bf9da340a7d8d0129c82f9153d7e2483443676fa62c7e993a291a19a7f7223b6dc7e5",
+                "last_used_at": "2021-12-08T17:26:22.515578+00:00",
+                "last_used_ip": "192.168.3.2",
+                "credential_id": "7f96fed386af472ba0fc3b957eae5617",
+                "version": "2021.11.5"
+            }
+        ]
+    }
+}

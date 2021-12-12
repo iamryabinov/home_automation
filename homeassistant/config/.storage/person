@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "netshutok_admin",
+                "user_id": "cbf0204b62034ec28be5144f00a9b0a6",
+                "device_trackers": [],
+                "id": "netshutok_admin"
+            }
+        ]
+    }
+}

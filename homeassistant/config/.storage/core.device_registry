@@ -1,0 +1,215 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "8c7ce5066edf3abd376f9b03cb8b7fe1"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "13857fc2272d8addd890e66ff69568a8",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "c81ec95e0309f37a10f79784eea7bf1b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c4:5b:be:65:9c:a6"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "Relay_1",
+                "name": "relay_1",
+                "sw_version": "10.0.0",
+                "entry_type": null,
+                "id": "dcd15cda0d6facc473976f396d87749c",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://192.168.3.211/"
+            },
+            {
+                "config_entries": [
+                    "c81ec95e0309f37a10f79784eea7bf1b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c4:5b:be:65:48:fd"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "Relay_2",
+                "name": "relay_2",
+                "sw_version": "10.0.0",
+                "entry_type": null,
+                "id": "e6581c809e953961e4739b76fd5db9fc",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://192.168.3.212/"
+            },
+            {
+                "config_entries": [
+                    "c81ec95e0309f37a10f79784eea7bf1b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "ac:0b:fb:d3:e8:5d"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "ESP01S DHT11",
+                "name": "temperature_humidity_4",
+                "sw_version": "10.0.0",
+                "entry_type": null,
+                "id": "0dc8f84833f22575b41388a16d53f15e",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://192.168.3.204/"
+            },
+            {
+                "config_entries": [
+                    "c81ec95e0309f37a10f79784eea7bf1b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "ac:0b:fb:d2:f7:96"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "ESP01S DHT11",
+                "name": "temperature_humidity_2",
+                "sw_version": "10.0.0",
+                "entry_type": null,
+                "id": "1e83b54540a89ec56414d2e4af03944d",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://192.168.3.202/"
+            },
+            {
+                "config_entries": [
+                    "c81ec95e0309f37a10f79784eea7bf1b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "ac:0b:fb:d3:03:1a"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "ESP01S DHT11",
+                "name": "temperature_humidity_1",
+                "sw_version": "10.0.0",
+                "entry_type": null,
+                "id": "3d40a7004ef46d32526e8fa731f21376",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://192.168.3.201/"
+            },
+            {
+                "config_entries": [
+                    "c81ec95e0309f37a10f79784eea7bf1b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "ac:0b:fb:d3:f6:90"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "ESP01S DHT11",
+                "name": "temperature_humidity_3",
+                "sw_version": "10.0.0",
+                "entry_type": null,
+                "id": "5a0f8de97828e5c6f2dceec5b395e316",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://192.168.3.203/"
+            },
+            {
+                "config_entries": [
+                    "c81ec95e0309f37a10f79784eea7bf1b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "ac:0b:fb:d3:fd:d6"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Tasmota",
+                "model": "ESP01S DHT11",
+                "name": "temperature_humidity_5",
+                "sw_version": "10.0.0",
+                "entry_type": null,
+                "id": "a8fc6e3fb7c0a15a0414a4aba6bdc8e7",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "http://192.168.3.205/"
+            },
+            {
+                "config_entries": [
+                    "9c2dd332efbc8a19b46a7577484306cf"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "yandex_station",
+                        "14207901c4105c0c0650"
+                    ]
+                ],
+                "manufacturer": "\u042f\u043d\u0434\u0435\u043a\u0441",
+                "model": "\u0421\u0442\u0430\u043d\u0446\u0438\u044f",
+                "name": "\u042f\u043d\u0434\u0435\u043a\u0441 \u0421\u0442\u0430\u043d\u0446\u0438\u044f",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "5856bc6fbb2821feefbf2ecfecba8299",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}
